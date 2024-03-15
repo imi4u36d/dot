@@ -3,7 +3,7 @@ const { app, BrowserWindow } = require('electron')
 const path = require('node:path')
 
 // const NODE_ENV = process.env.NODE_ENV
-const NODE_ENV = 'prod' // 判断开发或生产模式(建议写成这种,开发模式就可以用,等即将打包了再把这个变量换成打包模式)
+const NODE_ENV = 'development' // 判断开发或生产模式(建议写成这种,开发模式就可以用,等即将打包了再把这个变量换成打包模式)
 
 const createWindow = () => {
     const mainWindow = new BrowserWindow({
